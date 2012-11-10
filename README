@@ -1,0 +1,7 @@
+xftmetric - show xft font metric
+
+    $ xftmetric "Dejavu Sans Mono" 10
+    ascent: 12
+    descent: 3
+    height: 15
+    max advance: 8
