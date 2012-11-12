@@ -27,10 +27,10 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	printf("ascent: %d\n", font->ascent);
-	printf("descent: %d\n", font->descent);
-	printf("height: %d\n", font->height);
-	printf("max advance: %d\n", font->max_advance_width);
+	printf("XFTM_ASCENT=%d;\n", font->ascent);
+	printf("XFTM_DESCENT=%d;\n", font->descent);
+	printf("XFTM_HEIGHT=%d;\n", font->height);
+	printf("XFTM_MAX_ADVANCE=%d;\n", font->max_advance_width);
 
 	return 0;
 }
